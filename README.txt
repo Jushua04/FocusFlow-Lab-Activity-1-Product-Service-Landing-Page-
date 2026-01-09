@@ -1,6 +1,5 @@
-Name: YOUR NAME
-Student ID: YOUR ID
-Section: YOUR SECTION
+Name: Jushua Sanchez
+Section: BSIT 2A
 
 Product Name: FocusFlow
 Description:
@@ -21,4 +20,5 @@ Special Features:
 
 GitHub Repository (Optional):
 https://github.com/Jushua04/FocusFlow-Lab-Activity-1-Product-Service-Landing-Page-
+
 
