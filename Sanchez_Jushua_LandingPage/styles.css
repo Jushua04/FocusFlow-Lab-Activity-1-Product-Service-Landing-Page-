@@ -1,0 +1,114 @@
+/* Basic Styles */
+body {
+    background-color: #f0f0f0;
+    margin: 0; /* Remove default body margin */
+    display: flex; /* For vertical centering of the container */
+    justify-content: center; /* For horizontal centering of the container */
+    align-items: center; /* For vertical centering of the container */
+    min-height: 100vh; /* Ensure body takes full viewport height for vertical centering */
+    font-family: Arial, sans-serif; /* A common, readable font */
+}
+
+/* Container Styling */
+#container {
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for better appearance */
+    text-align: left; /* Reset text alignment for container content */
+}
+
+/* Header Styling */
+h1 {
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px; /* Space between text and border */
+    margin-top: 15px; /* Adjust margin after nav */
+}
+
+/* Section and Paragraph Styling */
+section p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: none; /* Remove list bullets */
+    margin-top: 20px;
+    padding: 0; /* Remove default padding for ul */
+}
+
+/* List Item Styling */
+li {
+    padding: 8px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add border to all li except the last one */
+li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+/* List Item Hover Effect */
+li:hover {
+    background-color: lightblue;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0; /* Adjust margin */
+    display: flex;
+    justify-content: flex-end; /* Align nav items to the right */
+    gap: 15px; /* Space between nav items */
+}
+
+nav li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Grid Container Styling */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns, each taking equal fraction of space */
+    grid-template-rows: repeat(2, auto); /* 2 rows, height determined by content */
+    gap: 10px;
+    margin-top: 30px; /* Space above the grid container */
+}
+
+/* Grid Item Styling */
+.grid-item {
+    background-color: lightgreen;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px; /* Optional: slight border-radius for grid items */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 30px; /* Space above the footer */
+    border-radius: 0 0 10px 10px; /* Match container's bottom border-radius */
+    margin-left: -20px; /* Counteract container padding */
+    margin-right: -20px; /* Counteract container padding */
+    margin-bottom: -20px; /* Counteract container padding */
+}
+
+footer p {
+    color: #333;
+    margin: 0; /* Remove default paragraph margin */
+    font-size: 0.9em;
+}
