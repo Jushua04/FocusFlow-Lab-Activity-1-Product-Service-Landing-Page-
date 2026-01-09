@@ -8,7 +8,7 @@ FocusFlow is a fictional study planner mobile application designed to help stude
 manage tasks, track productivity, and improve focus.
 
 Live URL:
-https://yourusername.github.io/focusflow
+https://jushua04.github.io/FocusFlow-Lab-Activity-1-Product-Service-Landing-Page-/
 
 External Resources:
 - Icons & images: Placeholder images
@@ -20,4 +20,5 @@ Special Features:
 - CSS hover effects
 
 GitHub Repository (Optional):
-https://github.com/yourusername/focusflow
+https://github.com/Jushua04/FocusFlow-Lab-Activity-1-Product-Service-Landing-Page-
+
